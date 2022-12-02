@@ -1,0 +1,21 @@
+{
+  "rdm": {
+    "url": "http://127.0.0.1:9000",
+    "username": "",
+    "password": ""
+  },
+  "db": {
+    "hostname": "127.0.0.1",
+    "username": "",
+    "password": "",
+    "database": "rdm",
+    "timeout": 10
+  },
+  "prometheus": {
+    "username": "",
+    "password": ""
+  },
+  "sentry": {
+    "dsn": ""
+  }
+}

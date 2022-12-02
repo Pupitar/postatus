@@ -1,0 +1,8 @@
+fastapi
+prometheus_client
+starlette_exporter
+sentry_sdk
+requests
+uvicorn
+mysqlclient
+black
