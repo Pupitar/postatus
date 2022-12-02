@@ -5,7 +5,7 @@ import requests
 from prometheus_client.core import GaugeMetricFamily
 from prometheus_client.registry import REGISTRY
 
-from ..config import config
+from config import config
 
 
 class RDMStatusCollector(object):

@@ -12,7 +12,7 @@ app = FastAPI()
 security = HTTPBasic()
 
 if config["sentry"]["dsn"]:
-    sentry_sdk.init(dsn=config)
+    sentry_sdk.init(dsn=config["sentry"]["dsn"])
     app.add_middleware(SentryAsgiMiddleware)
 
 
